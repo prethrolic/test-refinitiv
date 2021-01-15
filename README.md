@@ -1,0 +1,2 @@
+## Refinitiv Pretest
+this repository stores the source code for the questions in Section 2 of **Refinitiv Pretest*. Please look at `README.md` file of each respective question to find the note for each project.
