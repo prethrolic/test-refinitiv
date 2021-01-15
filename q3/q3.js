@@ -14,8 +14,15 @@ var request = https.get(options, (response) => {
         data += content;
     });
     response.on('end', ()=> {
-        const slicedData = data.split('<td>');
-        console.log()
+        var dataArray = data.split(/(?:<td>)|(?:<\/td>)|\s/);
+        dataArray = dataArray.filter((entry) => entry !== '');
+        const keyword = process.argv[2];
+        const index = dataArray.indexOf(keyword)
+
+        if (index >=0 && index < dataArray.length-1)
+          console.log(dataArray[index+1])
+
+        else console.log('NOT FOUND');
     });
 });
 
