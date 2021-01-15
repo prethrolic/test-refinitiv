@@ -1,29 +1,12 @@
-# q2
+# Section 2 / Question 2
 
-## Project setup
+## How to run the project on local
+1. setup project by typing the following command in this q1 folder
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+2. Compiles and run using the command
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
